@@ -114,7 +114,7 @@
                 source:
                   id: "{{ network_id[0] }}"
               - destination:
-                  name: vm-private-net
+                  name: 192-network 
                   namespace: demovms
                   type: multus
                 source:
