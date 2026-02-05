@@ -140,7 +140,7 @@
           spec:
             map:
               - destination:
-                  storageClass: ocs-external-storagecluster-ceph-rbd-virtualization
+                  storageClass: lvms-vg1 
                 source:
                   name: Dummy storage for source provider {{ provider }}
             provider:
