@@ -114,7 +114,7 @@
                 source:
                   id: "{{ network_id[0] }}"
               - destination:
-                  name: 192-network 
+                  name: 192-network-linux-hosts 
                   namespace: demovms
                   type: multus
                 source:
