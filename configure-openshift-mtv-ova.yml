@@ -115,7 +115,7 @@
                   id: "{{ network_id[0] }}"
               - destination:
                   name: vm-private-net
-                  namespace: default
+                  namespace: demovms
                   type: multus
                 source:
                   id: "{{ network_id[1] }}"
