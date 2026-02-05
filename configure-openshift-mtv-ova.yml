@@ -11,7 +11,7 @@
     provider: vsphere-ova
     storage_map_name: vsphere-ova-storage-map
     network_map_name: vsphere-ova-network-map
-    ova_url: utility.lab.example.com:/exports-ocp4/ova
+    ova_url: 172.20.36.200:/ocpnfs/ova
     forklift_url: forklift-inventory-openshift-mtv.apps.ocp4.example.com/providers/ova
     ns: openshift-mtv
     bearer_token: '{{ lookup("env", "K8S_AUTH_API_KEY") }}'
